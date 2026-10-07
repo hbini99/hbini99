@@ -1,0 +1,17 @@
+Test Local API (Port 8000)
+==============
+
+Windows:
+curl -X POST -H "Content-Type: application/json" -d "{\"Age\":5,\"KM\":10,\"FuelType\":\"Petrol\",\"HP\":90,\"MetColor\":1,\"Automatic\":1,\"CC\":1000,\"Doors\":4,\"Weight\":1000}" http://127.0.0.1:8000/api/v1/used-car/price
+
+iOS:
+curl -X POST -H 'Content-Type: application/json' -d '{"Age":5,"KM":10,"FuelType":"Petrol","HP":90,"MetColor":1,"Automatic":1,"CC":1000,"Doors":4,"Weight":1000}' http://127.0.0.1:8000/api/v1/used-car/price
+
+Test Docker API (Port 80)
+===============
+
+Windows:
+curl -X POST -H "Content-Type: application/json" -d "{\"Age\":5,\"KM\":10,\"FuelType\":\"Petrol\",\"HP\":90,\"MetColor\":1,\"Automatic\":1,\"CC\":1000,\"Doors\":4,\"Weight\":1000}" http://127.0.0.1/api/v1/used-car/price
+
+iOS:
+curl -X POST -H 'Content-Type: application/json' -d '{"Age":5,"KM":10,"FuelType":"Petrol","HP":90,"MetColor":1,"Automatic":1,"CC":1000,"Doors":4,"Weight":1000}' http://127.0.0.1/api/v1/used-car/price

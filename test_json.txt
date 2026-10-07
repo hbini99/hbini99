@@ -1,0 +1,9 @@
+{"Age": 25,
+ "KM": 10000,
+ "FuelType": "Diesel",
+ "HP": 110,
+ "MetColor": 1,
+ "Automatic": 1,
+ "CC": 4000,
+ "Doors": 4,
+ "Weight": 1110}
